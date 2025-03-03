@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo ##########################################################################################
-echo #  SCRIPT TO COMPARE S3 BUCKETS FROM DIFFERENT ACCOUNTS (VALIDATING BUCKET REPLICATION)  #
-echo ##########################################################################################
+echo "##########################################################################################"
+echo "#  SCRIPT TO COMPARE S3 BUCKETS FROM DIFFERENT ACCOUNTS (VALIDATING BUCKET REPLICATION)  #"
+echo "##########################################################################################"
 
 # Function to check if AWS credentials are configured
 check_aws_credentials() {
